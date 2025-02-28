@@ -9,10 +9,10 @@ public class Employee {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long employeeId;
     
-    @Column(nullable = false)
+    
     private String employeeName;
     
-    @Column(nullable = false)
+   
     private String employeeAddress;
 
     public Long getEmployeeId() {
